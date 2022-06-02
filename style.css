@@ -1,0 +1,36 @@
+body{
+    width:100vw;
+    height : 100vh;
+    display : grid;
+    align-items : center;
+    font-family : sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape') !important;
+}
+.card{
+    background-color : #36454F !important;
+    /* color  :white; */
+}
+.card-body{
+    color: white !important;
+}
+.search{
+    display: flex !important;
+    align-items: center;
+    gap: 7px;
+}
+#icon{
+    border-radius: 50px;
+    height:40px;
+    width: 40px;
+}
+input{
+    background-color: transparent !important;
+    color  :white !important;
+    
+}
+::placeholder{
+    color: aqua !important;
+}
+#description{
+    text-transform: capitalize !important;
+}
